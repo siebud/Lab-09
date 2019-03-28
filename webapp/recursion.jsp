@@ -34,6 +34,8 @@
          * This lets our recursion know when to stop.
          */
         //TODO
+	if(value ==1)
+		return value;
 
 
         /*
@@ -45,7 +47,7 @@
          * By doing this, we break up the equation n! into n! = n * (n-1)!.
          */
         //TODO
-
+	return n*factorialn-1)
     }
 
     /** **********************************************************************
@@ -67,6 +69,7 @@
     public int fibonacci(int n)
     {
         //TODO
+	return 0;
     }
 
     
@@ -105,11 +108,13 @@
         public int getValue()
         {
     	    //TODO
+		return 0;
         }
     
         public ArrayList<Tree> getChildren()
         {
     	    //TODO
+		return null;
         }
     
         public void add(Tree child)
@@ -149,9 +154,11 @@
         if (height == 1) 
         {
     	    //TODO
+		return 0;
         }
         
     	//TODO
+	return 0;
     }
 
     /** **********************************************************************
@@ -165,6 +172,7 @@
     public int treeSum(Tree tree)
     {
     	//TODO
+	return 0;
     }
     
     /** **********************************************************************
