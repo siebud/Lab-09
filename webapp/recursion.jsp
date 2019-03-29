@@ -107,23 +107,26 @@
         public Tree(int value)
         {
     	    //TODO
+		children = new ArrayList<Tree>();
+		this.value = value;
         }
     
         public int getValue()
         {
     	    //TODO
-		return 0;
+		return value;
         }
     
         public ArrayList<Tree> getChildren()
         {
     	    //TODO
-		return null;
+		return children;
         }
     
         public void add(Tree child)
         {
     	    //TODO
+		children.add(child);
         }
     }
     
