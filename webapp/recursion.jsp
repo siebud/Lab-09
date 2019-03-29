@@ -13,8 +13,8 @@
      * This lab tests your ability to implement recursion for several functions.
      * 
      * @authors: Stephen, Mukhtar, MoSho
-     * @editer: YOUR_NAME_HERE
-     * @version DATE_HERE
+     * @editer: Sierra B
+     * @version 3/28/2019
      */
 
     /** **********************************************************************
@@ -47,7 +47,7 @@
          * By doing this, we break up the equation n! into n! = n * (n-1)!.
          */
         //TODO
-	return n*factorialn-1)
+	return value*factorial(value-1);
     }
 
     /** **********************************************************************
