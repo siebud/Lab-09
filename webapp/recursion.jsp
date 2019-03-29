@@ -179,7 +179,13 @@
     public int treeSum(Tree tree)
     {
     	//TODO
-	return 0;
+	int total = 0;
+	ArrayList<Tree> cl = tree.getChildren();
+	for (int i = 0; i <cl.size(); i++){
+		
+	total += cl.get(i).getValue();
+	}
+	return total + tree.getValue();
     }
     
     /** **********************************************************************
